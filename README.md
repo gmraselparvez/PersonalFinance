@@ -1,99 +1,62 @@
 <div align="center">
 
-# 💰 Personal Finance
+# Personal Finance
 
-### A modern personal finance manager for macOS and the web.
+**A focused personal finance workspace for macOS + Web.**
 
-Track income, expenses, budgets, accounts, savings, loans, credit cards, EMI plans, transfers, and reports in one focused workspace.
-
-<br>
-
-[![Version](https://img.shields.io/badge/version-1.0-7C5CFF?style=for-the-badge)](../../releases)
-[![Build](https://img.shields.io/badge/build-125-1E1E1E?style=for-the-badge)](../../releases)
-[![macOS](https://img.shields.io/badge/macOS-native-000000?style=for-the-badge&logo=apple&logoColor=white)](../../releases)
-[![Web App](https://img.shields.io/badge/Web%20App-Live-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://personalfinance-webapp.vercel.app/)
+Track your money, budgets, cards, loans and recurring payments — without the spreadsheet clutter.
 
 <br>
 
-<a href="https://personalfinance-webapp.vercel.app/">
-  <strong>🚀 Open the Web App →</strong>
-</a>
+[![Version](https://img.shields.io/badge/version-1.0-7C5CFF?style=flat-square)](../../releases)
+[![Build](https://img.shields.io/badge/build-125-111827?style=flat-square)](../../releases)
+[![macOS](https://img.shields.io/badge/macOS-native-000000?style=flat-square&logo=apple&logoColor=white)](../../releases)
+[![Web](https://img.shields.io/badge/web-live-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://personalfinance-webapp.vercel.app/)
+
+**[🚀 Open Web App](https://personalfinance-webapp.vercel.app/)** · **[📦 Download macOS](../../releases)**
 
 </div>
 
 ---
 
-## ✨ What is Personal Finance?
+## Overview
 
-**Personal Finance** is a personal money-management workspace built around a simple idea:
-
-> **See where your money is. Understand where it goes. Plan what comes next.**
-
-It brings everyday financial tracking into one focused dashboard instead of spreading it across spreadsheets, banking apps, notes, and separate calculators.
-
-Whether you're tracking monthly spending, planning budgets, managing a credit card, monitoring loans, or keeping an eye on upcoming EMI payments, everything stays in one place.
-
----
-
-## 🖥️ Available on macOS & Web
+Personal Finance brings everyday money tracking into one place.
 
 | | macOS | Web |
-|---|---|---|
-| Dashboard | ✅ | ✅ |
-| Transactions | ✅ | ✅ |
-| Income tracking | ✅ | ✅ |
-| Master Budget | ✅ | ✅ |
-| Monthly Budget | ✅ | ✅ |
-| Accounts | ✅ | ✅ |
-| Savings | ✅ | ✅ |
-| Loans | ✅ | ✅ |
-| Credit Cards | ✅ | ✅ |
-| EMI | ✅ | ✅ |
-| Transfers | ✅ | ✅ |
-| Reports | ✅ | ✅ |
-| Cloud Sync | ✅ | ✅ |
-| Offline tracking | ✅ | — |
-| Backup & Restore | ✅ | ✅ |
-
-### 🌐 Try it in your browser
-
-<div align="center">
-
-### [Open Personal Finance Web App →](https://personalfinance-webapp.vercel.app/)
-
-No installation required.
-
-</div>
+|---|:---:|:---:|
+| Dashboard | ✓ | ✓ |
+| Transactions & Income | ✓ | ✓ |
+| Budgets | ✓ | ✓ |
+| Accounts & Savings | ✓ | ✓ |
+| Loans & Credit Cards | ✓ | ✓ |
+| EMI & Transfers | ✓ | ✓ |
+| Reports | ✓ | ✓ |
+| Cloud Sync | ✓ | ✓ |
+| Offline Tracking | ✓ | — |
+| Backup & Restore | ✓ | ✓ |
 
 ---
 
-## 📊 One Dashboard. Your Entire Financial Picture.
+## What you can manage
 
-The dashboard gives you a quick overview of the numbers that matter most:
+**Dashboard** — income, expenses, budget remaining, assets, available money and visual spending insights.
 
-**Monthly overview**
-- 💵 Income
-- 🛒 Expense
-- 🎯 Budget Remaining
+**Money** — transactions, income, bank/cash accounts and savings.
 
-**Overall financial position**
-- 🏦 Total Asset
-- 💳 Net Available Money
+**Planning** — master budgets, monthly budgets and upcoming payments.
 
-**Visual insights**
-- Spending by Category
-- Budget vs Actual
-- Income vs Expense
-- Upcoming Payments
-- Account Balances
+**Credit & Debt** — loans, credit cards and EMI plans with dedicated tracking.
 
-The goal is to make your financial position understandable at a glance.
+**Transfers & Reports** — move money between accounts and review your financial activity.
+
+**Sync & Backup** — cloud synchronization plus backup and restore.
 
 ---
 
-## 💳 Smart Credit Card Tracking
+## Credit Card Logic
 
-Credit card availability is calculated using the actual obligations affecting your available limit:
+Available credit accounts for obligations that have already been posted **and** commitments that have not settled yet:
 
 ```text
 Available Credit
@@ -103,210 +66,75 @@ Available Credit
 − Remaining EMI Amount
 ```
 
-This means pending purchases and remaining EMI obligations are accounted for instead of treating the credit limit as simply:
-
-```text
-Credit Limit − Statement Balance
-```
+This keeps pending purchases and future EMI obligations from appearing as freely available credit.
 
 ---
 
-## 🧩 Everything You Need
+## macOS First Launch
 
-### 📊 Dashboard
-A visual overview of your financial position, monthly performance, budgets, and upcoming obligations.
+When downloading the macOS app outside the Mac App Store, **Gatekeeper may ask you to confirm the first launch**.
 
-### 📋 Master Budget
-Define your overall spending plan and organize categories around your financial goals.
+If you downloaded the app from the official GitHub Release and trust the source:
 
-### 📅 Monthly Budget
-Plan and review your spending month by month.
+1. Open `PersonalFinance.app` once.
+2. Go to **System Settings → Privacy & Security**.
+3. Under **Security**, click **Open Anyway** for PersonalFinance.app.
+4. Confirm **Open Anyway** in the final dialog.
 
-### 💸 Transactions
-Record and manage everyday income, expenses, transfers, and card activity.
+<div align="center">
 
-### 💰 Income
-Keep your income sources organized and track monthly income.
+<table>
+<tr>
+<td align="center"><img src="assets/gatekeeper/01-gatekeeper-blocked.png" width="220" alt="Gatekeeper warning"></td>
+<td align="center"><img src="assets/gatekeeper/02-privacy-security-open-anyway.png" width="360" alt="Privacy and Security Open Anyway"></td>
+<td align="center"><img src="assets/gatekeeper/03-open-anyway-confirmation.png" width="220" alt="Open Anyway confirmation"></td>
+</tr>
+</table>
 
-### 🏦 Accounts
-Manage bank and cash accounts and monitor balances.
+</div>
 
-### 💎 Savings
-Track savings separately from everyday spending money.
-
-### 🤝 Loans
-Manage receivables and payables with individual loan records.
-
-### 💳 Credit Cards
-Track credit limits, outstanding balances, pending purchases, and available credit.
-
-### 🧾 EMI
-Keep installment plans and upcoming payments organized.
-
-### 🔄 Transfers
-Move money between accounts while keeping the ledger organized.
-
-### 📈 Reports
-Review financial activity and understand spending patterns.
-
-### ☁️ Cloud Sync
-Keep your finance data synchronized across supported devices.
-
-### 💾 Backup & Restore
-Create backups of your financial data and restore them when needed.
+> **Security note:** Only bypass Gatekeeper when the app came from a release source you trust. The warning means macOS could not verify the app through its available trust mechanism; it does not by itself identify the app as malware.
 
 ---
 
-## 🔐 Privacy & Security
-
-Personal finance data is sensitive.
-
-This public repository intentionally does **not** contain application source code or private financial data. Do not publish passwords, authentication tokens, API keys, bank account numbers, card numbers, transaction exports, or private database files.
-
----
-
-## ⚠️ macOS First-Launch Security Warning
-
-When the macOS app is downloaded directly from GitHub Releases or another source outside the Mac App Store, **macOS Gatekeeper may show a security warning before the first launch**.
-
-You may see a message similar to:
-
-> **“PersonalFinance.app” Not Opened**  
-> Apple could not verify that “PersonalFinance.app” is free of malware that may harm your Mac or compromise your privacy.
-
-This warning is generated by **macOS Gatekeeper**. It does not mean that Personal Finance has been identified as malware; it means macOS could not verify the app through the trust mechanism available on your Mac.
-
-### How to open the app
-
-If you downloaded the application from the official Personal Finance GitHub Release and trust the source, macOS provides an **Open Anyway** option.
-
-#### 1. Try opening PersonalFinance.app
-
-The first launch may show the Gatekeeper warning:
-
-<p align="center">
-  <img src="assets/gatekeeper/01-gatekeeper-blocked.png" alt="macOS Gatekeeper warning for PersonalFinance.app" width="360">
-</p>
-
-#### 2. Open Privacy & Security
-
-Go to:
-
-**System Settings → Privacy & Security**
-
-Scroll to the **Security** section. You may see that **PersonalFinance.app was blocked to protect your Mac** with an **Open Anyway** button.
-
-<p align="center">
-  <img src="assets/gatekeeper/02-privacy-security-open-anyway.png" alt="macOS Privacy & Security showing Open Anyway for PersonalFinance.app" width="650">
-</p>
-
-Click **Open Anyway**.
-
-#### 3. Confirm the launch
-
-macOS may show one more confirmation dialog. Review the source of the application and select **Open Anyway** if you trust the release you downloaded.
-
-<p align="center">
-  <img src="assets/gatekeeper/03-open-anyway-confirmation.png" alt="macOS confirmation dialog with Open Anyway" width="360">
-</p>
-
-After confirmation, Personal Finance should launch normally.
-
-> **Important:** Only bypass Gatekeeper for an application obtained from a source you trust. If the app was downloaded from an unknown or modified source, do not bypass the warning.
-
-### Why does this happen?
-
-macOS uses **Gatekeeper** to protect users from applications that it cannot verify through Apple's security and trust mechanisms. Applications distributed independently of the Mac App Store can require an additional confirmation on first launch, depending on their signing, notarization, distribution method, and the security state of the Mac.
-
-For the safest experience, always download Personal Finance from the project's official **GitHub Releases** page and verify that the release version matches the version you intended to install.
-
----
-
-## 📦 Production Release
+## Production
 
 ### `v1.0 · Build 125`
 
-This is the **first production release** of Personal Finance.
+The first production release of Personal Finance.
 
-**macOS**
-- Native macOS application
-- Offline tracking
-- Cloud synchronization
-- Notifications
-- Backup & restore
+**macOS** · Native SwiftUI · Offline tracking · Cloud sync · Notifications · Backup & restore  
+**Web** · Browser-based · Cloud-backed · Responsive · No installation required
 
-**Web**
-- Browser-based access
-- Cloud-backed data
-- Responsive interface
-- No installation required
-
-### Download macOS
-
-**[Download the latest macOS release →](../../releases)**
+**[View releases →](../../releases)**
 
 ---
 
-## 🚀 Getting Started
+## Privacy
 
-### macOS
+This public repository contains **product documentation and release information — not application source code or private financial data**.
 
-1. Open the [Releases](../../releases) page.
-2. Download the latest production macOS release.
-3. Open the downloaded DMG/ZIP.
-4. Move **PersonalFinance.app** to Applications.
-5. If macOS shows the Gatekeeper warning, follow the [First-Launch Security Warning](#-macos-first-launch-security-warning) steps above.
-6. Launch the app.
-7. Sign in or choose offline tracking.
-
-### Web
-
-1. Open **[personalfinance-webapp.vercel.app](https://personalfinance-webapp.vercel.app/)**.
-2. Sign in with your Personal Finance account.
-3. Start managing your finances.
+Never publish passwords, API keys, authentication tokens, bank/card numbers, transaction exports or private database files.
 
 ---
 
-## 🛠️ Product Structure
+## Support
 
-Personal Finance is available as two user-facing applications:
+Found a bug or have a feature request? Open a GitHub Issue with:
 
-```text
-Personal Finance
-│
-├── 🍎 macOS App
-│   ├── Native SwiftUI interface
-│   ├── Offline tracking
-│   ├── Cloud synchronization
-│   ├── Notifications
-│   └── Backup & restore
-│
-└── 🌐 Web App
-    ├── Browser-based access
-    ├── Cloud-backed data
-    ├── Responsive interface
-    └── Cross-device access
-```
+- Platform + app version/build
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshot or recording when useful
 
-The public repository contains product documentation and release information. **Application source code is intentionally not published here.**
+Please remove private financial information before posting.
 
 ---
 
-## 🆘 Support & Bug Reports
+<div align="center">
 
-For bugs or feature requests, open a GitHub issue and include:
+**Personal Finance · v1.0 Build 125**
 
-1. Platform — macOS or Web
-2. App version/build
-3. Steps to reproduce
-4. Expected behavior
-5. Actual behavior
-6. Screenshot or screen recording when useful
+[Web App](https://personalfinance-webapp.vercel.app/) · [Releases](../../releases) · [Issues](../../issues)
 
-Please do not post private financial information, passwords, access tokens, API keys, or account numbers in an issue.
-
----
-
-## 📄 License
-
-See [LICENSE](LICENSE).
+</div>
