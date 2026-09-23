@@ -2,276 +2,328 @@
 
 # 💰 Personal Finance
 
-### A modern personal finance app for macOS + Web
+### Your money. One clean workspace.
 
-Track your money, budgets, accounts, savings, loans, credit cards, and EMIs — all in one clean workspace.
+A modern personal finance app for **macOS + Web** designed to make everyday money tracking simple, visual, and organized.
 
-<br>
+<br/>
 
-[![Version](https://img.shields.io/badge/version-1.0-7C5CFF?style=for-the-badge)](../../releases)
-[![Build](https://img.shields.io/badge/build-125-1E1E1E?style=for-the-badge)](../../releases)
-[![Platform](https://img.shields.io/badge/macOS-native-000000?style=for-the-badge&logo=apple&logoColor=white)](../../releases)
-[![Web App](https://img.shields.io/badge/Web%20App-Live-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://personalfinance-webapp.vercel.app/)
+[![Version](https://img.shields.io/badge/VERSION-1.0-7C5CFF?style=flat-square)](../../releases)
+[![Build](https://img.shields.io/badge/BUILD-125-111111?style=flat-square)](../../releases)
+[![macOS](https://img.shields.io/badge/macOS-NATIVE-111111?style=flat-square&logo=apple&logoColor=white)](../../releases)
+[![Web](https://img.shields.io/badge/WEB-LIVE-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://personalfinance-webapp.vercel.app/)
 
-<br>
+<br/>
 
 <a href="https://personalfinance-webapp.vercel.app/">
-  <strong>🚀 Open the Web App →</strong>
+  <img src="https://img.shields.io/badge/OPEN%20WEB%20APP-7C5CFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Web App"/>
+</a>
+&nbsp;
+<a href="../../releases">
+  <img src="https://img.shields.io/badge/DOWNLOAD%20macOS-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS"/>
 </a>
 
 </div>
 
----
-
-## ✨ What is Personal Finance?
-
-**Personal Finance** is a personal money-management workspace built around a simple idea:
-
-> **See where your money is. Understand where it goes. Plan what comes next.**
-
-It brings everyday financial tracking into one focused dashboard instead of spreading it across spreadsheets, banking apps, notes, and separate calculators.
-
-Whether you're tracking monthly spending, planning budgets, managing a credit card, monitoring loans, or keeping an eye on upcoming EMI payments, everything stays in one place.
+<br/>
 
 ---
-
-## 🖥️ Available on macOS & Web
-
-| | macOS | Web |
-|---|---|---|
-| Dashboard | ✅ | ✅ |
-| Transactions | ✅ | ✅ |
-| Income tracking | ✅ | ✅ |
-| Master Budget | ✅ | ✅ |
-| Monthly Budget | ✅ | ✅ |
-| Accounts | ✅ | ✅ |
-| Savings | ✅ | ✅ |
-| Loans | ✅ | ✅ |
-| Credit Cards | ✅ | ✅ |
-| EMI | ✅ | ✅ |
-| Transfers | ✅ | ✅ |
-| Reports | ✅ | ✅ |
-| Cloud Sync | ✅ | ✅ |
-| Offline tracking | ✅ | — |
-| Backup & Restore | ✅ | ✅ |
-
-### 🌐 Try it in your browser
 
 <div align="center">
 
-### [Open Personal Finance Web App →](https://personalfinance-webapp.vercel.app/)
-
-No installation required.
+> **See where your money is. Understand where it goes. Plan what comes next.**
 
 </div>
 
 ---
 
-## 📊 One Dashboard. Your Entire Financial Picture.
+## ✦ Why Personal Finance?
 
-The dashboard gives you a quick overview of the numbers that matter most:
+Managing personal finances shouldn't require five different apps, spreadsheets, and a calculator.
 
-**Monthly overview**
-- 💵 Income
-- 🛒 Expense
-- 🎯 Budget Remaining
+**Personal Finance** brings the important pieces together:
 
-**Overall financial position**
-- 🏦 Total Asset
-- 💳 Net Available Money
+```text
+             PERSONAL FINANCE
+                    │
+     ┌──────────────┼──────────────┐
+     ↓              ↓              ↓
+  TRACK          PLAN          UNDERSTAND
+     │              │              │
+Transactions     Budgets        Reports
+Income           Savings        Dashboard
+Accounts         Loans          Spending
+Credit Cards     EMI            Cash Flow
+```
 
-**Visual insights**
-- Spending by Category
-- Budget vs Actual
-- Income vs Expense
-- Upcoming Payments
-- Account Balances
-
-The goal is to make your financial position understandable at a glance.
+The result is one focused place to understand your financial position and your day-to-day money movement.
 
 ---
 
-## 💳 Smart Credit Card Tracking
+## 🖥️ One Product. Two Experiences.
 
-Credit card availability is calculated using the actual obligations affecting your available limit:
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🍎 macOS
+
+A native desktop experience built for everyday financial tracking.
+
+**Includes**
+
+- Native macOS interface
+- Offline-first tracking
+- Cloud synchronization
+- Local financial data
+- Notifications
+- Backup & restore
+- Full finance workspace
+
+**[→ Download macOS](../../releases)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Web
+
+Access your financial workspace directly from the browser.
+
+**Includes**
+
+- No installation required
+- Cloud-backed data
+- Responsive interface
+- Same core finance workspace
+- Account synchronization
+
+**[→ Open Web App](https://personalfinance-webapp.vercel.app/)**
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📊 A Dashboard Built Around Your Money
+
+The dashboard gives you the numbers that matter without forcing you to dig through transactions.
+
+### Monthly snapshot
+
+| 💵 Income | 🛒 Expense | 🎯 Budget Remaining |
+|:---:|:---:|:---:|
+| Track incoming money | See where money went | Know what's left |
+
+### Overall position
+
+| 🏦 Total Asset | 💳 Net Available Money |
+|:---:|:---:|
+| Cash/Bank + Savings + Receivables | Cash/Bank − Card Outstanding − Payables − Remaining EMI |
+
+### Visual overview
+
+- **Spending by Category**
+- **Budget vs Actual**
+- **Income vs Expense**
+- **Upcoming Payments**
+- **Account Balances**
+
+---
+
+# 💳 Credit Cards That Actually Reflect Your Available Credit
+
+Available credit isn't simply the credit limit minus your statement balance.
+
+Personal Finance uses:
 
 ```text
 Available Credit
-= Credit Limit
-− Current Outstanding
-− Unsettled / Pending Card Purchases
-− Remaining EMI Amount
+        =
+Credit Limit
+        − Current Outstanding
+        − Unsettled / Pending Card Purchases
+        − Remaining EMI Amount
 ```
 
-This means pending purchases and remaining EMI obligations are accounted for instead of treating the credit limit as simply:
+This keeps pending purchases and remaining installment obligations visible when looking at available credit.
+
+---
+
+# 🧩 Everything in One Workspace
+
+<table>
+<tr>
+<td>📊 <b>Dashboard</b><br/>Financial overview at a glance.</td>
+<td>📋 <b>Master Budget</b><br/>Build your overall spending plan.</td>
+</tr>
+<tr>
+<td>📅 <b>Monthly Budget</b><br/>Plan spending month by month.</td>
+<td>💸 <b>Transactions</b><br/>Track everyday money movement.</td>
+</tr>
+<tr>
+<td>💰 <b>Income</b><br/>Organize and monitor income.</td>
+<td>🏦 <b>Accounts</b><br/>Keep bank and cash balances organized.</td>
+</tr>
+<tr>
+<td>💎 <b>Savings</b><br/>Separate savings from everyday money.</td>
+<td>🤝 <b>Loans</b><br/>Track receivables and payables.</td>
+</tr>
+<tr>
+<td>💳 <b>Credit Cards</b><br/>Monitor limits, outstanding and available credit.</td>
+<td>🧾 <b>EMI</b><br/>Manage installment plans and payments.</td>
+</tr>
+<tr>
+<td>🔄 <b>Transfers</b><br/>Move money between accounts.</td>
+<td>📈 <b>Reports</b><br/>Review financial activity and patterns.</td>
+</tr>
+</table>
+
+---
+
+# ☁️ Cloud Sync
+
+Your financial workspace can stay synchronized across supported experiences.
 
 ```text
-Credit Limit − Statement Balance
+             ☁️ Cloud
+                │
+       ┌────────┴────────┐
+       ↓                 ↓
+   🍎 macOS           🌐 Web
+       │                 │
+       └───────┬─────────┘
+               ↓
+        Your Finance Data
 ```
 
----
+The macOS app also supports **offline tracking**, allowing you to continue working without an internet connection.
 
-## 🧩 Everything You Need
-
-### 📊 Dashboard
-A visual overview of your financial position, monthly performance, budgets, and upcoming obligations.
-
-### 📋 Master Budget
-Define your overall spending plan and organize categories around your financial goals.
-
-### 📅 Monthly Budget
-Plan and review your spending month by month.
-
-### 💸 Transactions
-Record and manage everyday income, expenses, transfers, and card activity.
-
-### 💰 Income
-Keep your income sources organized and track monthly income.
-
-### 🏦 Accounts
-Manage bank and cash accounts and monitor balances.
-
-### 💎 Savings
-Track savings separately from everyday spending money.
-
-### 🤝 Loans
-Manage receivables and payables with individual loan records.
-
-### 💳 Credit Cards
-Track credit limits, outstanding balances, pending purchases, and available credit.
-
-### 🧾 EMI
-Keep installment plans and upcoming payments organized.
-
-### 🔄 Transfers
-Move money between accounts while keeping the ledger organized.
-
-### 📈 Reports
-Review financial activity and understand spending patterns.
-
-### ☁️ Cloud Sync
-Keep your finance data synchronized across supported devices.
-
-### 💾 Backup & Restore
-Create backups of your financial data and restore them when needed.
+> The web application is cloud-based and does not provide the macOS app's offline-tracking mode.
 
 ---
 
-## 🔐 Privacy First
+# 🔐 Built for Personal Financial Data
 
-Personal finance data is sensitive.
+Personal finance information is sensitive.
 
-Personal Finance is designed around keeping your financial information within your own account and supported storage/sync infrastructure.
+The application is designed around authenticated accounts and supported cloud synchronization rather than exposing financial information publicly.
 
-**Never share your password, authentication tokens, recovery codes, or other private credentials.**
-
----
-
-## 📦 Production Release
-
-### `v1.0 · Build 125`
-
-This is the **first production release** of Personal Finance.
-
-**macOS**
-- Native macOS application
-- Offline tracking
-- Cloud synchronization
-- Notifications
-- Backup & restore
-
-**Web**
-- Browser-based access
-- Cloud-backed data
-- Responsive interface
-- No installation required
-
-### Download macOS
-
-**[Download the latest macOS release →](../../releases)**
+**Never share your password, recovery codes, access tokens, or other authentication credentials.**
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Get Started
 
-### macOS
+### 1 · Web
 
-1. Open the [Releases](../../releases) page.
-2. Download the latest macOS `.dmg`.
-3. Open the DMG.
-4. Drag **PersonalFinance** into Applications.
-5. Launch the app.
-6. Sign in or choose offline tracking.
+Open the live application:
 
-### Web
+**[https://personalfinance-webapp.vercel.app/](https://personalfinance-webapp.vercel.app/)**
 
-1. Open **[personalfinance-webapp.vercel.app](https://personalfinance-webapp.vercel.app/)**.
-2. Sign in with your Personal Finance account.
-3. Start managing your finances.
+Sign in and start tracking.
+
+### 2 · macOS
+
+Go to **Releases**, download the latest `.dmg`, install the application, and launch it.
+
+**[Download Personal Finance for macOS →](../../releases)**
 
 ---
 
-## 🛠️ Product Structure
+# 📦 Production Release
 
-Personal Finance is available as two user-facing applications:
+<div align="center">
+
+### `v1.0` · `Build 125`
+
+**First production release**
+
+</div>
+
+### Included
+
+- ✅ Native macOS application
+- ✅ Web application
+- ✅ Dashboard
+- ✅ Master & Monthly Budgets
+- ✅ Transactions
+- ✅ Income
+- ✅ Accounts
+- ✅ Savings
+- ✅ Loans
+- ✅ Credit Cards
+- ✅ EMI
+- ✅ Transfers
+- ✅ Reports
+- ✅ Cloud Sync
+- ✅ Backup & Restore
+- ✅ Notifications
+
+---
+
+# 🗺️ Product Structure
 
 ```text
 Personal Finance
 │
-├── 🍎 macOS App
-│   ├── Native SwiftUI experience
-│   ├── Offline-first tracking
-│   ├── Cloud synchronization
-│   └── Local financial data
+├── 🍎 macOS
+│   ├── Dashboard
+│   ├── Budgets
+│   ├── Transactions
+│   ├── Income
+│   ├── Accounts
+│   ├── Savings
+│   ├── Loans
+│   ├── Credit Cards
+│   ├── EMI
+│   ├── Transfers
+│   └── Reports
 │
-└── 🌐 Web App
-    ├── Browser-based experience
-    ├── Cloud-backed data
-    └── Responsive interface
+└── 🌐 Web
+    ├── Dashboard
+    ├── Budgets
+    ├── Transactions
+    ├── Income
+    ├── Accounts
+    ├── Savings
+    ├── Loans
+    ├── Credit Cards
+    ├── EMI
+    ├── Transfers
+    └── Reports
 ```
 
-> The application source code is intentionally **not included** in this public repository.
-
 ---
 
-## 🔄 Release History
+# 📝 Release Notes
 
 ### v1.0 — Build 125
-**First production release**
 
-- Production macOS application
-- Production web application
-- Financial dashboard
-- Budget management
-- Transaction tracking
-- Income tracking
-- Account management
-- Savings tracking
-- Loan management
-- Credit card management
-- EMI tracking
-- Transfers
-- Reports
-- Cloud synchronization
-- Backup & restore
-- Notifications
+**September 2026 · Production**
 
----
-
-## 🌐 Links
-
-| Resource | Link |
-|---|---|
-| 🌐 Web App | **[Open Web App](https://personalfinance-webapp.vercel.app/)** |
-| 🍎 macOS Releases | **[Download Releases](../../releases)** |
-| 📦 Current Version | **v1.0 · Build 125** |
+The first public production release of Personal Finance, bringing the macOS application and web experience together around the same core financial workspace.
 
 ---
 
 <div align="center">
 
-### 💜 Built for better financial visibility.
+## 💜 Personal Finance
 
-**Personal Finance · v1.0 · Build 125**
+**Simple tracking. Clear numbers. Better visibility.**
+
+<br/>
+
+**v1.0 · Build 125**
+
+<br/>
+
+[🌐 Web App](https://personalfinance-webapp.vercel.app/)
+&nbsp;&nbsp;·&nbsp;&nbsp;
+[🍎 macOS Releases](../../releases)
+
+<br/><br/>
+
+<sub>Built for managing personal finances with less friction.</sub>
 
 </div>
