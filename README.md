@@ -185,7 +185,7 @@ If you downloaded the application from the official Personal Finance GitHub Rele
 The first launch may show the Gatekeeper warning:
 
 <p align="center">
-  <img src="assets/gatekeeper/01-gatekeeper-blocked.png" alt="macOS Gatekeeper warning for PersonalFinance.app" width="520">
+  <img src="assets/gatekeeper/01-gatekeeper-blocked.png" alt="macOS Gatekeeper warning for PersonalFinance.app" width="360">
 </p>
 
 #### 2. Open Privacy & Security
@@ -197,7 +197,7 @@ Go to:
 Scroll to the **Security** section. You may see that **PersonalFinance.app was blocked to protect your Mac** with an **Open Anyway** button.
 
 <p align="center">
-  <img src="assets/gatekeeper/02-privacy-security-open-anyway.png" alt="macOS Privacy & Security showing Open Anyway for PersonalFinance.app" width="1000">
+  <img src="assets/gatekeeper/02-privacy-security-open-anyway.png" alt="macOS Privacy & Security showing Open Anyway for PersonalFinance.app" width="650">
 </p>
 
 Click **Open Anyway**.
@@ -207,7 +207,7 @@ Click **Open Anyway**.
 macOS may show one more confirmation dialog. Review the source of the application and select **Open Anyway** if you trust the release you downloaded.
 
 <p align="center">
-  <img src="assets/gatekeeper/03-open-anyway-confirmation.png" alt="macOS confirmation dialog with Open Anyway" width="520">
+  <img src="assets/gatekeeper/03-open-anyway-confirmation.png" alt="macOS confirmation dialog with Open Anyway" width="360">
 </p>
 
 After confirmation, Personal Finance should launch normally.
