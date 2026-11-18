@@ -8,8 +8,8 @@ Track your money, budgets, cards, loans and recurring payments — without the s
 
 <br>
 
-[![Version](https://img.shields.io/badge/version-1.0-7C5CFF?style=flat-square)](../../releases)
-[![Build](https://img.shields.io/badge/build-125-111827?style=flat-square)](../../releases)
+[![Version](https://img.shields.io/badge/version-1.17-7C5CFF?style=flat-square)](../../releases)
+[![Build](https://img.shields.io/badge/build-144-111827?style=flat-square)](../../releases)
 [![macOS](https://img.shields.io/badge/macOS-native-000000?style=flat-square&logo=apple&logoColor=white)](../../releases)
 [![Web](https://img.shields.io/badge/web-live-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://personalfinance-webapp.vercel.app/)
 
@@ -99,12 +99,19 @@ If you downloaded the app from the official GitHub Release and trust the source:
 
 ## Production
 
-### `v1.0 · Build 125`
+### `v1.17 · Build 144`
 
-The first production release of Personal Finance.
+A big design and accuracy update for the macOS app.
 
-**macOS** · Native SwiftUI · Offline tracking · Cloud sync · Notifications · Backup & restore  
-**Web** · Browser-based · Cloud-backed · Responsive · No installation required
+- **Accurate budgets** — Dashboard Expense and Budget Remaining count only Monthly Budget categories; off-budget spending is never included. Budget vs Actual shows every category with a budget-limit marker.
+- **Consistent, responsive lists** — Transactions, Income, Transfers, Monthly and Master Budget share one row style and fit any window width (no sideways scrolling). Transactions can be grouped daily, weekly or monthly, and pending card purchases are always visible.
+- **Details on double-click** — open any transaction, income or transfer in a details popup.
+- **Credit cards** — "This Statement" summary with due countdown and reminder; completed EMIs archived per card.
+- **Reports** — income trend chart and PDF export.
+- **Faster entry** — remembers your last category and account, suggests categories from past descriptions, and accepts amounts like `1.5k`, `2L` or `120+80`.
+- **Polish** — calendar date picker, clock-style time picker, grouped sidebar, keyboard shortcuts (⌘1–9, ⌘←/⌘→, ⌘F), undo after delete, budget alerts and a cleaner single-page Settings with a live sync status.
+
+Previous: `v1.0 · Build 125` — the first production release.
 
 **[View releases →](../../releases)**
 
@@ -133,7 +140,7 @@ Please remove private financial information before posting.
 
 <div align="center">
 
-**Personal Finance · v1.0 Build 125**
+**Personal Finance · v1.17 Build 144**
 
 [Web App](https://personalfinance-webapp.vercel.app/) · [Releases](../../releases) · [Issues](../../issues)
 
